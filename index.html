@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>Xavier Quintanilla's Personal Website</title>
+  <meta name="description" content="Xavier Quintanilla's Personal Website" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <!-- <div class="main-header__logo-img-cont">
+        <img src="/assets/photo.ico" alt="logo Image" class="main-header__logo-img" />
+      </div> -->
+      <h4 class="main-header__logo-text">Xavier Quintanilla</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projects </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
+  </header>
+
+  <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <!-- <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div> -->
+  <!---->
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hey!</span>
+          <span class="heading-primary__main">
+            My name is Xavier, welcome to my personal website.
+          </span>
+        </h1>
+        <button class="home-project btn btn-theme home-hero__btn-theme ">Projects</button>
+        <button class="home-contact btn btn-inv home-hero__btn-theme">Contact</button>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About</span>
+        <span class="heading-secondary__main">
+          Here you will find some information about me:
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Hi! It’s Xavier and I come from Ecuador. Passionate of learning and overcoming new challenges, I decided
+                to leave my country to pursue my dreams. That’s what brought me where I am right now: studying Computer
+                Engineering – Nanoscale System Design at U of A. As you can guess, I love science and technology, it has
+                been my friend since I was a kid, and luckily for me, it is what is in major development nowadays.
+              </span>
+              <span>
+                As I continue through my journey, I know hard work is what will take me and the people I work with to
+                success. I am not afraid of learning and trying new things to reach my goals.
+              </span>
+              <span>
+                Can you imagine I was a professional soccer player in my country?
+              </span>
+            </p>
+            <a href="assets/Xavier_Quintanilla_Resume_2023.pdf" class="btn btn-theme projects__btn-theme" target="_blank">Resume</a>
+            <a href="assets/Transcript_August2023.pdf" class="btn btn-inv projects__btn-inv" target="_blank">Transcript</a>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Interests
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">Nanotechnology</li>
+              <li class="about__skill">IoT</li>
+              <li class="about__skill">Data Science</li>
+              <li class="about__skill">AI/Machine Learning</li>
+              <li class="about__skill">Deep Learning</li>
+              <li class="about__skill">Software Development</li>
+              <li class="about__skill">Design</li>
+              <li class="about__skill">Firmware</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <span class="heading-secondary__sm"> Technical Skills:</span>
+    <ul class="skills-showcase__list"> 
+      <li class="skills-showcase__list-item">
+        <i class="devicon-cplusplus-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-python-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-java-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-react-original colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-nodejs-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-postgresql-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-git-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-tensorflow-original colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-github-original colored"></i>
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects</span>
+        <span class="heading-secondary__main">
+          Here you can find some personal and client projects that I developed with the details of each one:
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/facerecog-photo.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Face Recognition webapp with secure login
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Developed an advanced Face Recognition Web App using React for the frontend, leveraging Clarifai's AI
+                  API for accurate facial recognition. Implemented secure user authentication with bcrypt-nodejs and
+                  stored user data in a PostgreSQL database. The app was deployed on the Render platform, ensuring
+                  seamless accessibility.
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <span>
+                  <ul class="text-primary projects__list-item-text-primary project-achievements">Key Achievements:
+                    <li>Successfully developed a cutting-edge Face Recognition Web App, utilizing React for the frontend
+                      and Node.js with Express for the backend.</li>
+                    <li>Achieved exceptional accuracy in facial recognition through the integration of Clarifai's
+                      advanced AI technology.</li>
+                    <li>Implemented stringent security measures for user login, safeguarding sensitive user
+                      information effectively.
+                    </li>
+                    <li>Managed and queried user data in the PostgreSQL database using Knex.js, optimizing app
+                      performance
+                      and data retrieval.</li>
+                    <li>Seamlessly deployed the web app on Render, ensuring reliability and scalability for users.</li>
+                </span>
+              </p>
+              <br>
+              <a class="btn btn-theme projects__btn-theme" href="https://xavialess.github.io/facerecog/" target="_blank"
+                rel="noopener noreferrer">Live Link</a>
+
+              <!-- <button class="btn btn-theme projects__btn-theme" href="https://xavialess.github.io/facerecog/"
+                target="_blank" rel="noopener noreferrer">
+                Link
+              </button> -->
+              <a class="btn btn-inv projects__btn-inv" href="https://github.com/Xavialess/facerecog" target="_blank"
+                rel="noopener noreferrer">Code Link</a>
+              <!-- <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/business.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Business Payroll System - Desktop Application
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Designed and developed a comprehensive Business Payroll System desktop application using Java and
+                  Apache NetBeans IDE. The application provided streamlined payroll management functionalities for
+                  businesses, enhancing accuracy and efficiency. The database management was facilitated through XAMPP,
+                  ensuring secure and reliable data storage.
+
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <span>
+                  <ul class="text-primary projects__list-item-text-primary project-achievements">Key Achievements:
+                    <li>Leveraged the principles of Object-Oriented Programming (OOP) to design and implement the
+                      application's architecture and logic.</li>
+                    <li>Automated payroll calculations, tax deductions, and salary disbursement.</li>
+                    <li>Integrated XAMPP for secure database management, ensuring data security and reliable data
+                      retrieval.
+                    </li>
+                </span>
+              </p>
+              <br>
+              <!-- <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/dolci.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Web Site - Skin Care products company
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Designed the interface of an interactive web page to display information and promotions of the store's
+                  newest products of 2020's summer season.
+                  Included the catalog of the store and a free 24/7 online-store system
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span>
+              </p>
+              <!-- <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contact</span>
+        <span class="heading-secondary__main">
+          Feel free to Contact me and I will get back to you as soon as possible
+        </span>
+      </h2>
+      <a rel="noreferrer" target="_blank" class="contact__form-submit" href="mailto:xquintan@ualberta.ca">Contact
+        me</a>
+      <!-- <button type="submit" class="contact__form-submit">Submit</button> -->
+      </form>
+      <div class="contact__form-visual"></div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <!-- <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a> -->
+          <a href="https://www.linkedin.com/in/xavi-quintanilla/" class="main-footer__social-link" target="_blank">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
