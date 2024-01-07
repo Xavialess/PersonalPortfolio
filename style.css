@@ -126,6 +126,11 @@ a {
   font-weight: 400;
 }
 
+.bck-greeting {
+  display: inline-block;  
+  background-color: white; 
+}
+
 @media (max-width: 37.5em) {
   .heading-primary {
     font-size: 4rem;
